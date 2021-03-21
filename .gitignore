@@ -1,0 +1,907 @@
+/Pickle/*.pkl
+*.pyc
+git rm --cached *.pyc
+*.hdf5
+git rm --cached *.hdf5
+config.py
+Spotify_Config.py
+*.csv
+git rm --cached *.csv
+*.pkl
+git rm --cached *.pkl
+*.txt
+git rm --cached *.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# saved as Ansi
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Files to exclude 
+Outside_Data_Models/__pycache__/Classes.cpython-38.pyc
+Outside_Data_Models/models/songs.01-0.32.hdf5
+Outside_Data_Models/models/songs.01-0.33.hdf5
+Outside_Data_Models/models/songs.02-0.32.hdf5
+Outside_Data_Models/models/songs.02-0.33.hdf5
+Outside_Data_Models/models/songs.03-0.32.hdf5
+Outside_Data_Models/models/songs.04-0.32.hdf5
+Outside_Data_Models/models/songs.05-0.32.hdf5
+Outside_Data_Models/models/songs.08-0.32.hdf5
+Outside_Data_Models/models/songs_balanced.01-0.30.hdf5
+Outside_Data_Models/models/songs_balanced.01-0.31.hdf5
+Outside_Data_Models/models/songs_balanced.02-0.29.hdf5
+Outside_Data_Models/models/songs_balanced.02-0.31.hdf5
+Outside_Data_Models/models/songs_balanced.03-0.29.hdf5
+Outside_Data_Models/models/songs_balanced.03-0.30.hdf5
+Pickle/Feauture_Pickle.pkl
+Pickle/Kaggle.pkl
+Pickle/Pickle.pkl
+Pickle/Spotify_Pickle.pkl
+Pickle/df_agg.pkl
+
+
+Songs_Collections_Cleaning/.ipynb_checkpoints/1-Collecting_Top_Songs-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/2-Song_Cleaning-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/3-Spotify_Prep_Cleaning-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/4-Spotify_Feature_Extraction-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/5-Post_Spotify_Extraction_Cleaning-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/6-Baseline_DT_Variations-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/6-Baseline_KNN-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/6-Baseline_LR-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/6-Baseline_NB-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/6-Baseline_XGB-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/6-Outside_Data_Cleaning-checkpoint.ipynb
+Songs_Collections_Cleaning/.ipynb_checkpoints/7-NeuralNet-checkpoint.ipynb
+
+Songs_Collections_Cleaning/__pycache__/Classes.cpython-38.pyc
+Songs_Collections_Cleaning/__pycache__/config.cpython-38.pyc
+Songs_Collections_Cleaning/config.py
+
+
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (2020=08-23).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (1).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (10).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (100).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (11).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (12).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (13).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (14).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (15).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (16).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (17).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (18).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (19).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (2).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (20).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (21).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (22).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (23).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (24).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (25).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (26).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (27).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (28).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (29).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (3).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (30).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (31).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (32).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (33).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (34).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (35).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (36).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (37).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (38).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (39).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (4).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (40).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (41).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (42).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (43).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (44).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (45).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (46).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (47).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (48).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (49).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (5).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (50).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (51).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (52).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (53).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (54).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (55).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (56).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (57).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (58).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (59).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (6).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (60).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (61).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (62).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (63).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (64).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (65).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (66).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (67).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (68).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (69).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (7).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (70).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (71).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (72).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (73).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (74).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (75).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (76).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (77).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (78).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (79).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (8).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (80).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (81).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (82).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (83).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (84).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (85).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (86).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (87).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (88).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (89).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (9).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (90).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (91).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (92).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (93).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (94).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (95).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (96).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (97).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (98).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) (99).csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001406.406.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001453.366.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001540.854.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001632.309.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001723.663.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001812.557.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001906.240.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T001954.879.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002047.472.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002135.750.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002227.305.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002317.579.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002409.350.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002459.637.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002551.195.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002643.231.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002734.584.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002759.997.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002849.513.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T002937.735.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003029.099.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003121.523.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003215.064.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003304.712.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003356.935.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003452.727.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003542.410.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003637.313.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003728.079.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003820.183.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T003912.327.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004003.391.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004057.191.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004152.525.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004240.333.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004334.005.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004420.876.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004511.079.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004603.877.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004654.544.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004744.027.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004833.698.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T004923.223.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005014.948.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005106.781.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005157.693.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005249.798.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005343.141.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005436.542.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005530.471.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005623.397.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005711.923.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005801.372.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005851.057.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T005942.223.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010036.867.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010127.475.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010217.360.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010306.036.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010400.203.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010449.727.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010539.496.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010631.391.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010722.316.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010815.209.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T010909.258.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011003.135.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011052.540.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011141.625.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011233.505.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011324.090.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011419.114.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011511.515.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011603.090.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011650.697.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011739.827.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T011830.276.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T095904.534.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T095939.117.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100010.211.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100040.267.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100112.930.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100143.497.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100211.524.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100245.614.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100314.709.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100344.875.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100415.860.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100448.011.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100523.246.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100557.727.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100629.676.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100703.526.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100733.948.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100806.798.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100836.910.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100919.854.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T100949.288.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101001.236.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101032.950.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101102.219.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101135.719.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101206.521.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101236.682.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101306.654.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101336.694.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101405.879.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101435.592.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101508.715.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101541.344.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101613.383.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101642.629.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101718.001.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101732.510.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101802.999.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101833.269.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101904.162.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T101931.576.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104304.117.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104340.028.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104411.049.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104437.687.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104507.541.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104537.560.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104607.989.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104639.541.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104652.598.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104726.859.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104756.852.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104830.319.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104901.087.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T104934.513.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105005.486.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105037.836.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105111.319.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105142.523.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105215.088.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105240.686.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105312.795.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105342.880.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105414.192.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105449.456.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105519.822.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105547.126.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105622.333.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105653.986.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105705.773.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105735.765.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105806.317.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105836.886.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105907.103.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T105935.003.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110005.495.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110036.433.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110106.633.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110139.488.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110208.541.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110237.670.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110311.133.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110341.417.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110410.516.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110425.023.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110452.926.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110522.623.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110552.465.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110624.124.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110658.347.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110726.531.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110757.809.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110830.310.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined) - 2021-03-10T110901.743.csv
+Songs_Data/Daily/TIKTOK DAILY TOP TRACKS (undefined).csv
+Songs_Data/Daily/combined_csv.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2020=01-03).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2020=06-09).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2020=07-02).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2020=08-05).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2020=10-29).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2021=01-01).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (2021=01-27).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (1).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (10).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (100).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (11).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (12).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (13).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (14).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (15).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (16).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (17).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (18).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (19).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (2).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (20).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (21).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (22).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (23).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (24).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (25).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (26).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (27).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (28).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (29).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (3).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (30).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (31).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (32).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (33).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (34).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (35).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (36).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (37).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (38).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (39).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (4).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (40).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (41).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (42).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (43).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (44).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (45).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (46).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (47).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (48).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (49).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (5).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (50).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (51).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (52).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (53).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (54).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (55).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (56).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (57).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (58).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (59).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (6).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (60).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (61).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (62).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (63).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (64).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (65).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (66).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (67).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (68).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (69).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (7).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (70).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (71).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (72).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (73).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (74).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (75).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (76).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (77).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (78).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (79).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (8).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (80).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (81).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (82).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (83).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (84).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (85).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (86).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (87).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (88).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (89).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (9).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (90).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (91).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (92).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (93).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (94).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (95).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (96).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (97).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (98).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) (99).csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T125742.028.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T125805.824.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T125835.142.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T125906.894.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T125936.216.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130003.313.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130034.546.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130103.566.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130131.067.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130159.920.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130232.176.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130314.276.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130341.939.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130413.662.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130445.595.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130456.470.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130526.177.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130555.824.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130640.481.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130723.393.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130755.848.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130823.704.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130852.788.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130921.975.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T130950.301.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131018.916.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131048.631.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131118.776.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131230.019.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131257.761.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131329.278.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131357.013.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131424.174.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131452.311.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131538.730.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131608.474.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131640.242.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131707.903.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131734.630.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131804.577.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131846.293.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T131935.396.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132002.113.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132051.117.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132122.923.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132149.679.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132219.831.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132252.399.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132321.418.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132347.748.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132418.965.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132446.781.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132531.832.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132544.662.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132610.385.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132640.370.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132709.194.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132736.086.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132803.313.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132831.810.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132859.712.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132925.579.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T132952.834.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133025.285.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133110.911.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133140.634.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133213.457.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133243.036.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133309.884.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133357.048.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133426.187.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133453.428.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133521.645.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133549.816.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133623.130.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133652.204.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133721.494.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133751.715.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133823.056.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133854.663.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133927.889.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T133958.133.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134026.832.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134054.634.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134120.628.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134149.768.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134218.382.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134247.224.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134317.385.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134346.333.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134416.025.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134502.297.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134531.978.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134617.180.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134703.601.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134736.876.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134806.969.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134835.534.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134904.138.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T134935.829.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135009.165.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135039.751.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135105.969.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135135.363.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135203.174.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135231.768.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135304.136.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135331.149.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135400.217.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135427.468.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135454.130.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135555.398.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135642.192.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135712.884.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135738.148.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135807.364.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135839.419.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135910.848.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T135939.299.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140007.683.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140035.733.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140102.497.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140127.129.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140155.163.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140224.747.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140255.078.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140323.707.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140354.430.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140439.180.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140508.183.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140538.160.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140607.977.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140637.753.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140703.700.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140738.843.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140805.487.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140830.723.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140901.082.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140932.114.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T140958.538.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141026.920.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141059.573.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141127.596.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141221.758.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141249.081.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141319.192.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141349.001.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141419.576.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141451.416.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141522.434.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141533.035.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141558.378.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141631.524.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141700.524.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141729.831.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141759.908.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141829.707.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141853.445.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141921.053.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T141948.777.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142014.129.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142038.499.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142104.984.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142134.519.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142204.391.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142318.145.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142344.397.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142413.258.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142442.851.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142513.721.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142541.896.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142613.039.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142647.473.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142715.833.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142803.837.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142835.975.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142906.759.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T142932.603.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143002.627.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143032.712.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143105.202.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143134.250.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143159.450.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143227.403.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143312.585.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143342.036.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143409.151.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143434.286.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143457.930.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143540.772.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143607.661.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143637.141.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143705.515.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143754.315.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143819.373.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143915.379.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T143945.871.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144035.969.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144105.030.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144134.201.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144203.216.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144234.692.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144246.215.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144335.891.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144405.950.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144438.271.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144506.861.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144518.617.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144547.313.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144614.734.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144645.868.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144714.507.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144742.095.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144809.742.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144837.336.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144904.747.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T144936.063.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145005.972.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145036.918.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145104.380.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145133.002.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145203.961.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145232.813.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145305.522.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145336.636.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145348.413.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145415.803.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145814.293.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145841.132.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145907.417.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T145935.573.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150004.579.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150032.128.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150102.502.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150132.169.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150344.144.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150412.994.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150440.681.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150505.837.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150535.829.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150602.440.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150631.551.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150701.022.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150732.679.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150758.208.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150828.707.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150916.244.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150945.105.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T150957.442.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151009.015.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151200.757.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151231.502.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151301.902.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151331.731.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151357.199.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151429.261.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151459.517.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151527.166.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151601.497.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151631.047.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151701.885.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151732.797.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151806.161.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151847.303.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T151915.709.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152033.442.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152100.953.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152127.143.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152155.195.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152225.664.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152257.118.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152325.202.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152353.753.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152456.190.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152524.067.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152554.613.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152737.260.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152807.233.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152834.404.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152912.801.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T152942.889.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153014.906.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153040.580.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153112.644.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153144.134.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153211.623.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153240.921.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153319.469.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153347.231.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153415.306.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153444.101.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined) - 2021-03-10T153449.534.csv
+Songs_Data/Rolling_Weekly/TIKTOK WEEKLY TOP TRACKS (undefined).csv
+Songs_Data/Rolling_Weekly/combined_csv.csv
+Songs_Data/Spotify_Kaggle/data.csv
+Songs_Data/Spotify_Kaggle/data_by_artist.csv
+Songs_Data/Spotify_Kaggle/data_by_genres.csv
+Songs_Data/Spotify_Kaggle/data_by_year.csv
+Songs_Data/Spotify_Kaggle/data_w_genres.csv
+
+Internal_Models/__pycache__/Classes.cpython-38.pyc
+Internal_Models/models/songs.01-0.15.hdf5
+Internal_Models/models/songs.01-0.20.hdf5
+Internal_Models/models/songs.01-0.41.hdf5
+Internal_Models/models/songs.02-0.11.hdf5
+Internal_Models/models/songs.02-0.13.hdf5
+Internal_Models/models/songs.02-0.18.hdf5
+Internal_Models/models/songs.02-0.41.hdf5
+Internal_Models/models/songs.03-0.10.hdf5
+Internal_Models/models/songs.03-0.17.hdf5
+Internal_Models/models/songs.04-0.10.hdf5
+Internal_Models/models/songs.04-0.11.hdf5
+Internal_Models/models/songs.04-0.16.hdf5
+Internal_Models/models/songs.04-0.38.hdf5
+Internal_Models/models/songs.05-0.08.hdf5
+Internal_Models/models/songs.05-0.10.hdf5
+Internal_Models/models/songs.06-0.08.hdf5
+Internal_Models/models/songs.06-0.16.hdf5
+Internal_Models/models/songs.07-0.08.hdf5
+Internal_Models/models/songs.08-0.16.hdf5
+Internal_Models/models/songs.09-0.08.hdf5
+Internal_Models/models/songs.09-0.10.hdf5
+Internal_Models/models/songs.09-0.15.hdf5
+Internal_Models/models/songs.10-0.07.hdf5
+Internal_Models/models/songs.10-0.15.hdf5
+Internal_Models/models/songs.11-0.10.hdf5
+Internal_Models/models/songs.13-0.07.hdf5
+Internal_Models/models/songs.13-0.38.hdf5
+Internal_Models/models/songs.15-0.07.hdf5
+Internal_Models/models/songs.18-0.15.hdf5
+Internal_Models/models/songs.20-0.07.hdf5
+Internal_Models/models/songs.21-0.07.hdf5
+Internal_Models/models/songs.51-0.38.hdf5
+Outside_Data_Models/.ipynb_checkpoints/1-Baseline_DT_Variations-checkpoint.ipynb
+Outside_Data_Models/.ipynb_checkpoints/2-Baseline_KNN-checkpoint.ipynb
+Outside_Data_Models/.ipynb_checkpoints/3-Baseline_LR-checkpoint.ipynb
+Outside_Data_Models/.ipynb_checkpoints/4-Baseline_NB-checkpoint.ipynb
+Outside_Data_Models/.ipynb_checkpoints/5-Baseline_XGB-checkpoint.ipynb
+Outside_Data_Models/.ipynb_checkpoints/6-NeuralNet-checkpoint.ipynb
+Outside_Data_Models/.ipynb_checkpoints/7-Top_Model_Outside_Predictions-checkpoint.ipynb
