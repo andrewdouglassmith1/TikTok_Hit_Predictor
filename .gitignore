@@ -5,8 +5,13 @@ git rm --cached *.pyc
 git rm --cached *.hdf5
 config.py
 Spotify_Config.py
-*.csv
-git rm --cached *.csv
+/
+Internal_Models/*.csv
+Outside_Data_Models/*.csv
+Pickle/*.csv
+Songs_Collections_Cleaning/*.csv
+Songs_Data/*.csv
+Streamlit/*.csv
 *.pkl
 git rm --cached *.pkl
 *.txt
