@@ -12,7 +12,7 @@ st.markdown('_Data courtesy of Spotify_')
 st.cache(allow_output_mutation=True)
 def getData():
     #read in
-    results = pd.read_csv(r'https://raw.githubusercontent.com/andrewdouglassmith1/TikTok_Hit_Predictor/Streamlit/kaggle_results_brfc.csv')
+    results = pd.read_csv(r'https://raw.githubusercontent.com/andrewdouglassmith1/TikTok_Hit_Predictor/main/Streamlit/kaggle_results_brfc.csv')
     return results
 
 #download csv function from https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806
@@ -30,22 +30,28 @@ def get_table_download_link(df, titleString):
 results = getData()
 
 #user input for date range
-years = st.slider("Release Year", min_value=1920, max_value=2021, value=(2015, 2020))
+st.cache(allow_output_mutation=True)
+years = st.slider("Release Year", min_value=1920, max_value=2021, value=(2016, 2020))
 
 #user input for probability a success
-success = st.slider("Probaility a Hit", min_value=0.0, max_value=1.0, value=(0.8, 1.0))
+st.cache(allow_output_mutation=True)
+success = st.slider("Probaility a Hit", min_value=0.0, max_value=1.0, value=(0.5, 1.0))
 
 #user input for popularity
-popularity = st.slider("Popularity", min_value=0, max_value=100, value=(80, 100))
+st.cache(allow_output_mutation=True)
+popularity = st.slider("Popularity", min_value=0, max_value=100, value=(60, 100))
 
 #user input for danceability
+st.cache(allow_output_mutation=True)
 danceability = st.slider("Danceability", min_value=0.0, max_value=1.0, value=(0.7, 1.0))
 
 #user input for energy
+st.cache(allow_output_mutation=True)
 energy = st.slider("Energy", min_value=0.0, max_value=1.0, value=(0.7, 1.0))
 
 #user input for energy
-valence = st.slider("Valence", min_value=0.0, max_value=1.0, value=(0.0, 1.0))
+st.cache(allow_output_mutation=True)
+valence = st.slider("Valence", min_value=0.0, max_value=1.0, value=(0.7, 1.0))
 
 #filter recruits dataframe to match user selections
 results = results[results['year'].between(years[0],years[1])]

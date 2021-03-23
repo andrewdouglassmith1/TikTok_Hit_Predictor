@@ -30,19 +30,19 @@ def get_table_download_link(df, titleString):
 results = getData()
 
 #user input for date range
-years = st.slider("Release Year", min_value=1920, max_value=2021, value=(2015, 2020))
+years = st.slider("Release Year", min_value=1920, max_value=2021, value=(1920, 2020))
 
 #user input for probability a success
-success = st.slider("Probaility a Hit", min_value=0.0, max_value=1.0, value=(0.8, 1.0))
+success = st.slider("Probaility a Hit", min_value=0.0, max_value=1.0, value=(0.0, 1.0))
 
 #user input for popularity
-popularity = st.slider("Popularity", min_value=0, max_value=100, value=(80, 100))
+popularity = st.slider("Popularity", min_value=0, max_value=100, value=(0, 100))
 
 #user input for danceability
-danceability = st.slider("Danceability", min_value=0.0, max_value=1.0, value=(0.7, 1.0))
+danceability = st.slider("Danceability", min_value=0.0, max_value=1.0, value=(0.0, 1.0))
 
 #user input for energy
-energy = st.slider("Energy", min_value=0.0, max_value=1.0, value=(0.7, 1.0))
+energy = st.slider("Energy", min_value=0.0, max_value=1.0, value=(0.0, 1.0))
 
 #user input for energy
 valence = st.slider("Valence", min_value=0.0, max_value=1.0, value=(0.0, 1.0))
