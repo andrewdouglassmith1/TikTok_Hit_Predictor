@@ -56,7 +56,7 @@
 
 **Confusion Matrix**
 
-![![Confusion Matrix](https://user-images.githubusercontent.com/58379976/112503822-9f5dc980-8d61-11eb-8f87-6ebe0df64f39.PNG)
+![Confusion Matrix](https://user-images.githubusercontent.com/58379976/112503822-9f5dc980-8d61-11eb-8f87-6ebe0df64f39.PNG)
 
 **Feature Importance** 
 
