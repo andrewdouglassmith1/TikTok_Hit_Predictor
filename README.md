@@ -44,5 +44,6 @@
 
 ## Web Application
 
-
+- [Check it out here](https://share.streamlit.io/andrewdouglassmith1/tiktok_hit_predictor/main/Streamlit/streamlit_app3.py)
+- Add gif here
 
