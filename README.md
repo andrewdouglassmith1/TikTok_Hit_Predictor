@@ -40,7 +40,8 @@
 
 - Selected the top model based on F1 score with the goal of reducing false negatives and false positives
 - Balanced Random Forest was the top model with an F1 score of 80%
-- **Add confusion matrix and feature importance here!!!!!**
+![Confusion Matrix](https://user-images.githubusercontent.com/58379976/112503822-9f5dc980-8d61-11eb-8f87-6ebe0df64f39.PNG)
+![Sheet 2 (4)](https://user-images.githubusercontent.com/58379976/112505322-0d56c080-8d63-11eb-803c-9804b5918a8d.png)
 
 ## Web Application
 
