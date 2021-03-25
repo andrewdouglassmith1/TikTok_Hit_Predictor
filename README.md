@@ -21,11 +21,24 @@
 - **Data**: 
   - *Top TikTok* Songs: Utilized [Chartmetric's](https://www.chartmetric.com/) weekly and daily TikTok charts to select top songs
   - *Song Features*: Extracted song features from the Spotify API
-- **Features:** 
-  - *Song Features*: Danceability, Energy, Key, Mode, Speechiness, Acousticness, Liveness, Valence, Loudness, Tempo, Instrumentalness
-  - *Metadata*: Year Released, Artists
 - **Tools**
   - Numpy, Pandas, Selenium, Sci-kit learn, Imbalanced Learn, Streamlit, Seaborn, Matplotlib, Tableau, XG Boost
+
+# Labels and Features
+
+**Labels:**
+
+- Background:
+  - Songs are measured how successful they are on TikTok by the number of video counts they have (the number of videos made with this song as the background music)
+  - Chartmetric ranks the top songs on two measures: 1) Top daily songs by video count 2) Top 7 day trailing songs by video count
+- Labels were broken out into two groups:
+  - *Hit:* if a song every breaks the top 50 for daily video counts or 7 day trailing video counts
+  - *Not a Hit:* if a song never breaks the top 50 for daily video counts or 7 day trailing video counts
+
+**Features:** 
+
+- *Song Features*: Danceability, Energy, Key, Mode, Speechiness, Acousticness, Liveness, Valence, Loudness, Tempo, Instrumentalness
+- *Metadata*: Year Released, Artists
 
 ## Models
 
@@ -40,7 +53,13 @@
 
 - Selected the top model based on F1 score with the goal of reducing false negatives and false positives
 - Balanced Random Forest was the top model with an F1 score of 80%
-![Confusion Matrix](https://user-images.githubusercontent.com/58379976/112503822-9f5dc980-8d61-11eb-8f87-6ebe0df64f39.PNG)
+
+**Confusion Matrix**
+
+![![Confusion Matrix](https://user-images.githubusercontent.com/58379976/112503822-9f5dc980-8d61-11eb-8f87-6ebe0df64f39.PNG)](
+
+**Feature Importance** 
+
 ![Sheet 2 (4)](https://user-images.githubusercontent.com/58379976/112505322-0d56c080-8d63-11eb-803c-9804b5918a8d.png)
 
 ## Web Application
