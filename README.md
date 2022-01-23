@@ -5,7 +5,7 @@
 
 - The app mostly consists of dance routines to songs such as,  the "Renegade" by artist K  Camp and "Savage" by Megan Thee Stallion.
 
-- TikTok stars like Charlie D'Amelio (111M followers) and Addison Rae (78M) have becoming full blown celebrities.  However, TikTok stars no longer have the same security to stay on top as the celebrities of "old" did. 
+- TikTok stars like Charlie D'Amelio (111M followers) and Addison Rae (78M) have become full blown celebrities.  However, TikTok stars no longer have the same security to stay on top as the celebrities of "old" did. 
 
 - Rachel Monroe wrote this well in her piece featured in the *Atlantic*
 
