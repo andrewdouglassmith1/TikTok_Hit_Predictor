@@ -9,7 +9,7 @@
 
 - Rachel Monroe wrote this well in her piece featured in the *Atlantic*
 
-  <p>“In the old model of celebrity, stars were propped up by studios and agencies with a stake in their enduring appeal. TikTok’s young stars have grown up in a world where fame can arrive in an instant, but also disappear overnight.</p>
+  <p>“In the old model of celebrity, stars were propped up by studios and agencies with a stake in their enduring appeal. TikTok’s young stars have grown up in a world where fame can arrive in an instant, but also disappear overnight."</p>
 
 ## Objective
 
